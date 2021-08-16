@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    background-image: url(gradient.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.container {
+    border-radius: 20px;
+    background: white;
+    padding-bottom: 2rem;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px #9b9b9b
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstname {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.lastname {
+    border-radius: 0px 10px 10px 0px;
+}
+
+button {
+    height: 2.5rem;
+    border-radius: 10px;
+    background: #4896ff;
+    color: white;
+    border: 1px solid #4896ff;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+.tos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+height: 2.5rem;
+border-radius: 10px;
+border: 1px solid white;
+background: rgb(240, 240, 240);
+transition: all 0.3s ease-in-out;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+input:focus {
+    outline: none;
+    background-color: white;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 10px 0px #9b9b9b;
+}
+
+input:hover {
+    background-color: white;
+    border: 1px solid rgb(240, 240, 240);
+}
