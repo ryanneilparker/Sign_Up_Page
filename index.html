@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="fetch.js" defer></script>
+    <link rel="shortcut icon" href="#">
     <title>Sign Up</title>
 </head>
 
 <body>
     <div class="container">
-        <form action="">
+        <form action="" class="form">
 
             <div class="header">
                 <h1>Create account</h1>
                 <p>Already have an account? <a href="">Sign in</a></p>
             </div>
 
-            <input type="text" placeholder="Username" autofocus>
+            <input type="text" placeholder="Username" class="username" autofocus>
 
             <div class="names">
                 <input type="text" placeholder="First name" class="firstname">
                 <input type="text" placeholder="Last name" class="lastname">
             </div>
 
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" class="email">
 
-            <button>
+            <button class="button">
                 <div class="spacer"></div>
                 <span>Sign up</span>
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -43,5 +45,4 @@
         </form>
     </div>
 </body>
-
 </html>
