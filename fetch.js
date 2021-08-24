@@ -9,7 +9,7 @@ function apiCall() {
     }
 
     // POST data to API
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('https://y821wpw70k.execute-api.af-south-1.amazonaws.com/dev/register', {
         // Specify POST method
         method: "POST",
         // Convert data to JSON and send to API
