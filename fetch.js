@@ -27,4 +27,4 @@ function apiCall() {
 }
 
 // Trigger API call when Sign up button is clicked
-const button = document.querySelector(".button").addEventListener('click', apiCall());
+const button = document.querySelector(".button").addEventListener('click', apiCall);
